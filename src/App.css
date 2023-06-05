@@ -1,0 +1,45 @@
+.App {
+
+    color: white;
+    font-family: var(--font-family);
+    font-size: 3vh;
+    margin: 0 5vw;
+    height: 100vh;
+
+}
+
+.logo {
+
+    position: fixed;
+    right: 2vh;
+    bottom: -7vh;
+
+}
+
+.icon {
+
+    width: 7vh;
+    height: 7vh;
+
+}
+
+.links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0vh;
+
+}
+
+a { width: fit-content; }
+
+a .hero { transition: all 0.2s ease-in-out; }
+
+a:hover .hero {
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}

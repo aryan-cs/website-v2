@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&display=swap');
+
+:root {
+
+    --font-family: 'IBM Plex Mono', monospace;
+    --accent: rgb(255, 208, 54);
+  
+}
+
+html {
+
+    background-image: url('https://kaisermann.me/assets/images/effect-artifacts.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+a, p1 { color: var(--accent); }
+
+::-webkit-scrollbar { width: 8px; }
+  
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 1); 
+    /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.25); }
